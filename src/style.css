@@ -1,0 +1,89 @@
+
+
+
+body{
+  padding: 40px;
+  background-color: rgb(71, 79, 72);
+}
+
+.input{
+  background-color: rgba(0, 0, 0, 0.142); 
+  
+}
+
+.input:focus{
+  background-color: rgba(0, 0, 0, 0.142);
+  outline: none;
+  color:white
+}
+
+.fondo{
+  background-image: url('./assets/fondoc.jpg');
+  background-size: cover;
+  height: 600px;
+
+}
+
+.colorTexto{
+  color:white
+}
+
+.colorTextoDos{
+  color:rgb(204, 202, 202)
+}
+
+.fondo-traslucido{
+  background-color: rgba(0, 0, 0, 0.5); 
+  height: 600px;
+  opacity: 9;
+  
+}
+
+.temp{
+  font-size: 180px;
+}
+
+.margen{
+  margin-top: 9rem;
+}
+
+.iconito{
+  margin-left: 13%;
+}
+
+.iconitoDos{
+  margin-left: 5%;
+}
+
+.btnEliminar{
+  width: 26px;
+   height: 26px;
+   border: none;
+   outline: none;
+   background-color: transparent; 
+   color: #fff;
+   text-align:center;
+   margin-left:.5rem
+   
+}
+
+.btnEliminar:hover{
+  background-color: rgba(0, 0, 0, 0.149);
+  border-radius: 50%;
+}
+
+.custom-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center center;
+}
+
+.spanHover{
+  cursor: pointer
+}
+
+
+
+
+
+
